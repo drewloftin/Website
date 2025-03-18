@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drew's Personal Website</title>
+    <style>
+        /* Business Casual Theme with Background Image */
+        body {
+            font-family: 'Arial', sans-serif;
+            color: #333; /* Dark gray text */
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh; /* Ensures the body takes up at least the full viewport height */
+            /* Background Image */
+            background-image: url('../images/Chambers.webp'); /* Replace with your image path */
+            background-size: cover; /* Ensures the image covers the entire background */
+            background-position: center; /* Centers the image */
+            background-attachment: fixed; /* Makes the background fixed while scrolling */
+        }
+        header {
+            background-color: rgba(44, 62, 80, 0.8); /* Semi-transparent dark blue-gray */
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        header h1 {
+            font-size: 2.5rem;
+            margin: 0;
+            font-family: 'Georgia', serif;
+        }
+        nav {
+            margin: 20px;
+            text-align: center;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #2c3e50; /* Dark blue-gray */
+            font-weight: bold;
+            padding: 10px 20px;
+            border-radius: 25px;
+            background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white */
+            transition: background-color 0.3s, color 0.3s;
+        }
+        nav a:hover {
+            background-color: #2c3e50; /* Dark blue-gray on hover */
+            color: white;
+        }
+        section {
+            padding: 20px;
+            margin: 20px auto;
+            max-width: 800px; /* Consistent width for both sections */
+            background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white */
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            flex: 1; /* Allows sections to grow and fill available space */
+        }
+        section h2 {
+            color: #2c3e50; /* Dark blue-gray */
+            font-size: 2rem;
+            margin-bottom: 10px;
+            border-bottom: 2px solid #2c3e50;
+            padding-bottom: 5px;
+        }
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background-color: rgba(44, 62, 80, 0.8); /* Semi-transparent dark blue-gray */
+            color: white;
+            width: 100%;
+        }
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Drew's Personal Website</h1>
+    </header>
+
+    <nav>
+        <a href="Resume.html">My Resume</a>
+    </nav>
+
+    <section id="hobbies">
+        <h2>My Hobbies</h2>
+        <p>In my free time, I enjoy:</p>
+        <ul>
+            <li>Golfing as much as I possibly can</li>
+            <li>Watching movies</li>
+            <li>Playing video games</li>
+            <li>Seeing friends and family</li>
+            <li>Listening to music</li>
+            <li>Watching Manchester United</li>
+        </ul>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Here are some fun facts about me:</p>
+        <ul>
+            <li>I have 2 older brothers!</li>
+            <li>I am left-handed</li>
+            <li>My favorite movie is <em>The Shawshank Redemption</em></li>
+            <li>I want to move outside of Washington as an adult</li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Drew Loftin. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
