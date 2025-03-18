@@ -1,0 +1,12 @@
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: cornflowerblue;
+    font-size: 18px;
+    border-style: dashed;
+    text-align: center;
+    background-color: azure;
+}
+
+body {
+    background-color: greenyellow;
+}
